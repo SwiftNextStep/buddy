@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21FE9E7F262F6FAF9AE10D93 /* Pods_buddy2_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A341B5CF175697EEC372C7C /* Pods_buddy2_2.framework */; };
 		84E03D6C1CD1DB3100EF9167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E03D6B1CD1DB3100EF9167 /* AppDelegate.swift */; };
-		84E03D6E1CD1DB3100EF9167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E03D6D1CD1DB3100EF9167 /* ViewController.swift */; };
+		84E03D6E1CD1DB3100EF9167 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E03D6D1CD1DB3100EF9167 /* LoginViewController.swift */; };
 		84E03D711CD1DB3100EF9167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E03D6F1CD1DB3100EF9167 /* Main.storyboard */; };
 		84E03D731CD1DB3100EF9167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E03D721CD1DB3100EF9167 /* Assets.xcassets */; };
 		84E03D761CD1DB3100EF9167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E03D741CD1DB3100EF9167 /* LaunchScreen.storyboard */; };
+		84E9A49F1CD2016F00B0AB35 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9A49E1CD2016F00B0AB35 /* MessageTableViewController.swift */; };
+		84E9A4A11CD201C800B0AB35 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9A4A01CD201C800B0AB35 /* MessageViewController.swift */; };
+		84E9A4A41CD2528000B0AB35 /* JSQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9A4A31CD2528000B0AB35 /* JSQViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F8BC435AA429C968A7206F0 /* Pods-buddy2.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddy2.2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buddy2.2/Pods-buddy2.2.debug.xcconfig"; sourceTree = "<group>"; };
+		710F79711982E75A80868244 /* Pods-buddy2.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddy2.2.release.xcconfig"; path = "Pods/Target Support Files/Pods-buddy2.2/Pods-buddy2.2.release.xcconfig"; sourceTree = "<group>"; };
+		7A341B5CF175697EEC372C7C /* Pods_buddy2_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buddy2_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E03D681CD1DB3100EF9167 /* buddy2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buddy2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E03D6B1CD1DB3100EF9167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84E03D6D1CD1DB3100EF9167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E03D6D1CD1DB3100EF9167 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84E03D701CD1DB3100EF9167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E03D721CD1DB3100EF9167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E03D751CD1DB3100EF9167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E03D771CD1DB3100EF9167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E9A49E1CD2016F00B0AB35 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		84E9A4A01CD201C800B0AB35 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		84E9A4A21CD24D9A00B0AB35 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		84E9A4A31CD2528000B0AB35 /* JSQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSQViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FE9E7F262F6FAF9AE10D93 /* Pods_buddy2_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32D37D16E468EF268F9A0E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A341B5CF175697EEC372C7C /* Pods_buddy2_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84E03D5F1CD1DB3100EF9167 = {
 			isa = PBXGroup;
 			children = (
 				84E03D6A1CD1DB3100EF9167 /* buddy2.2 */,
 				84E03D691CD1DB3100EF9167 /* Products */,
+				983A1DCA14737A7CCCC2B1D7 /* Pods */,
+				32D37D16E468EF268F9A0E91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +77,26 @@
 			isa = PBXGroup;
 			children = (
 				84E03D6B1CD1DB3100EF9167 /* AppDelegate.swift */,
-				84E03D6D1CD1DB3100EF9167 /* ViewController.swift */,
+				84E03D6D1CD1DB3100EF9167 /* LoginViewController.swift */,
+				84E9A49E1CD2016F00B0AB35 /* MessageTableViewController.swift */,
+				84E9A4A01CD201C800B0AB35 /* MessageViewController.swift */,
 				84E03D6F1CD1DB3100EF9167 /* Main.storyboard */,
 				84E03D721CD1DB3100EF9167 /* Assets.xcassets */,
 				84E03D741CD1DB3100EF9167 /* LaunchScreen.storyboard */,
 				84E03D771CD1DB3100EF9167 /* Info.plist */,
+				84E9A4A21CD24D9A00B0AB35 /* Header.h */,
+				84E9A4A31CD2528000B0AB35 /* JSQViewController.swift */,
 			);
 			path = buddy2.2;
+			sourceTree = "<group>";
+		};
+		983A1DCA14737A7CCCC2B1D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F8BC435AA429C968A7206F0 /* Pods-buddy2.2.debug.xcconfig */,
+				710F79711982E75A80868244 /* Pods-buddy2.2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E03D7A1CD1DB3100EF9167 /* Build configuration list for PBXNativeTarget "buddy2.2" */;
 			buildPhases = (
+				2A8A7B9CDF11D5DC8CFB2416 /* Check Pods Manifest.lock */,
 				84E03D641CD1DB3100EF9167 /* Sources */,
 				84E03D651CD1DB3100EF9167 /* Frameworks */,
 				84E03D661CD1DB3100EF9167 /* Resources */,
+				86292A4E23176091A36430CB /* Embed Pods Frameworks */,
+				64676F6AB45B464AC2D71FAD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A8A7B9CDF11D5DC8CFB2416 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64676F6AB45B464AC2D71FAD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-buddy2.2/Pods-buddy2.2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86292A4E23176091A36430CB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-buddy2.2/Pods-buddy2.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E03D641CD1DB3100EF9167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E03D6E1CD1DB3100EF9167 /* ViewController.swift in Sources */,
+				84E03D6E1CD1DB3100EF9167 /* LoginViewController.swift in Sources */,
+				84E9A49F1CD2016F00B0AB35 /* MessageTableViewController.swift in Sources */,
+				84E9A4A11CD201C800B0AB35 /* MessageViewController.swift in Sources */,
 				84E03D6C1CD1DB3100EF9167 /* AppDelegate.swift in Sources */,
+				84E9A4A41CD2528000B0AB35 /* JSQViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +336,7 @@
 		};
 		84E03D7B1CD1DB3100EF9167 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8BC435AA429C968A7206F0 /* Pods-buddy2.2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = buddy2.2/Info.plist;
@@ -258,6 +348,7 @@
 		};
 		84E03D7C1CD1DB3100EF9167 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710F79711982E75A80868244 /* Pods-buddy2.2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = buddy2.2/Info.plist;
@@ -286,6 +377,7 @@
 				84E03D7C1CD1DB3100EF9167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
